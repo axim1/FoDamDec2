@@ -92,6 +92,11 @@ function initMap() {
 
       var groundtruthImage ='GroundTruth/'+ selectedFile.replace('.geojson', '_Ground_Truth.png');
        groundtruthImage = groundtruthImage.replace('GeojsonData/','');
+
+       var chartImage ='Chart/'+ selectedFile.replace('.geojson', '_CHART.png');
+       chartImage = chartImage.replace('GeojsonData/','');
+
+
        datafromjson= 'Data/'+ selectedFile.replace('.geojson', '.json');
        datafromjson = datafromjson.replace('GeojsonData/','');
 
@@ -99,6 +104,7 @@ function initMap() {
       document.getElementById('preFireImage').src = preFireImage;
       document.getElementById('postFireImage').src = postFireImage;
       document.getElementById('gtImage').src = groundtruthImage;
+      document.getElementById('chart').src = chartImage;
     }
   }
 
@@ -120,7 +126,9 @@ function initMap() {
   var geojsonFiles = [
   'GeojsonData/CPT11AND12.geojson',
   'GeojsonData/CPT23.geojson',
-  'GeojsonData/CPT25.geojson'
+  'GeojsonData/CPT25.geojson',
+  'GeojsonData/CPT46.geojson',
+
 ];
 
 // Add options for each GeoJSON file to the dropdown menu
