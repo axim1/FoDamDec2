@@ -1,0 +1,185 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    padding: 0px;
+    text-align: left;
+    background-image:  url("main.jpeg");
+  
+    
+  }
+
+  .header h1 {
+    margin: 0;
+    /* background-color: rgba(85, 90, 62, 0.411); */
+
+    font-size: 45px;
+    letter-spacing: 0px;
+    padding-top: 230px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+  }
+
+  .image-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+  
+  }
+
+  .image-carousel img {
+    max-height: 400px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .image-carousel img:hover {
+    transform: scale(1.1);
+  }
+
+
+  #geojsonDropdown {
+    margin: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: rgb(7, 5, 5);
+    cursor: pointer;
+  }
+
+  #geojsonDropdown option {
+    background-color: #fff;
+    color: rgb(7, 5, 5);
+  }
+  #mapContainer {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    margin: auto ;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  .mapcontainer-item{ 
+     align-self:center;
+    margin: 50px;
+    }
+  .legend{
+    align-self:center ;
+  }
+
+   #map {
+    height: 80vh;
+    width: 70%;
+  } 
+
+  .preandpost{
+    align-self:stretch;
+    justify-content: center;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .preandpost-item{
+      flex: 1;
+    align-self: center;
+    text-align: center;}
+  
+    .preandpost-item img{
+      
+        max-width: 100%;
+        width: 450px; /* Set the desired width */
+        height: 450px; /* Set the desired height */
+        object-fit: cover; /* Maintain aspect ratio and fill container */
+        align-self: center
+    
+    }
+  
+
+  .preandpost-item h2 {
+    align-self: center
+  }
+  /* .results{
+    display: flex;
+    margin-bottom: 40px;
+    padding: 40px;
+    align-items: stretch;
+    justify-content: center;
+   
+
+  
+  }
+  .results-item{
+      flex: 1;
+  align-self: center;
+  text-align: center;}
+
+  .results-item img{
+    max-width: 100%;
+    width: 450px; 
+    height: 450px; 
+    object-fit: cover; 
+    align-self: center
+  
+  } */
+
+
+  /* #map{
+    width: 100%;
+    height: 70vh;
+  } */
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+  
+  th {
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+  
+  tr:nth-child {
+
+    text-align: center;
+  }
+  
+  /* tr:nth-child(odd) {
+    background-color: black;
+  } */
+  
+  td:last-child {
+    color: white;
+  }

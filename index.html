@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Maps API Example</title>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDb8mFgFjes8xE_w344q1xbRwa1UKS_o5M"></script>
+  
+<script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body onload="initMap()">
+  <div class="header">
+    <h1>Forest Damage Detection Using Unsupervised Learning</h1>
+  </div>
+
+  <label for="geojsonDropdown">Select Region:</label>
+  <select id="geojsonDropdown">
+    <option value="">- Select -</option>
+  </select>
+  <br>
+
+  <div id="mapContainer">
+    <div class="mapcontainer-item legend"><img src="Burn Severity Classes.png" alt=""></div>
+    <div class="mapcontainer-item" id="map"></div>
+    <!-- <div class="mapcontainer-item image-column">
+      <h2>Pre Fire Image</h2>
+      <img id="preFireImage" src="" alt="Pre Fire Image">
+      <h2>Post Fire Image</h2>       
+      <img id="postFireImage" src="" alt="Post Fire Image">
+    </div> -->
+  </div>
+
+    <div class="preandpost">
+      <div class = "preandpost-item">
+        <h2>Pre Fire Image</h2>
+      <img id="preFireImage" src="" alt="Pre Fire Image">
+      </div>
+      <div class = "preandpost-item">
+        <h2>Post Fire Image</h2>
+      <img id="postFireImage" src="" alt="Post Fire Image">
+    </div>
+    <div  class = "preandpost-item">
+      <h2>Ground Truth</h2>
+      <img id="gtImage" src="" alt="GroundTruth">
+    </div>
+    </div>
+
+
+
+<!-- 
+
+  <div class="results">
+    <div  class = "results-item">
+      <h2>Ground Truth</h2>
+      <img src="GroundTruth\CPT46_Ground_Truth_Validation.png" alt="">
+    </div>
+    <div class="results-item">
+      <h2>Results</h2>
+      <img src="ee-chart.png" alt="">
+    </div>
+  </div> -->
+
+  <table id="data-table">
+    <tr>
+      <th>Burn Severity Classes</th>
+      <th>Area (acres)</th>
+    </tr>
+  </table>
+</div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
+
