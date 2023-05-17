@@ -1,0 +1,33 @@
+{
+    "data": [
+      {
+        "Burn Severity Classes": "High Severity",
+        "Area (acres)": 0.55538
+      },
+      {
+        "Burn Severity Classes": "Moderate-high Severity",
+        "Area (acres)": 1.483737
+      },
+      {
+        "Burn Severity Classes": "Moderate-low Severity",
+        "Area (acres)": 0
+      },
+      {
+        "Burn Severity Classes": "Low Severity",
+        "Area (acres)": 45.06499
+      },
+      {
+        "Burn Severity Classes": "Unburnt",
+        "Area (acres)": 216.3006718
+      },
+      {
+        "Burn Severity Classes": "Enhanced Regrowth, Low",
+        "Area (acres)": 180.62027
+      },
+      {
+        "Burn Severity Classes": "Enhanced Regrowth, High",
+        "Area (acres)": 190.53421
+      }
+    ]
+  }
+  
