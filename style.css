@@ -97,30 +97,60 @@ body {
   .preandpost{
     align-self:stretch;
     justify-content: center;
-    width:100%;
+
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
   }
 
   .preandpost-item{
-      flex: 1;
-    align-self: center;
-    text-align: center;}
+    align-self: stretch;
+    text-align: center;
+
+  
+  }
   
     .preandpost-item img{
       
-        max-width: 100%;
-        width: 450px; /* Set the desired width */
-        height: 450px; /* Set the desired height */
-        object-fit: cover; /* Maintain aspect ratio and fill container */
-        align-self: center
+        width: 250px; /* Set the desired width */
+        height: 250px; /* Set the desired height */
+        align-self: center;
     
     }
   
 
   .preandpost-item h2 {
+    align-self: center;
+  }
+
+
+
+  
+  .groundt{
+    align-self:stretch;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .groundt-item{
+    align-self: center;
+    text-align: center;
+    margin: 100px;
+  }
+  
+    .groundt-item img{
+      
+        width: 600px; /* Set the desired width */
+        height: 450px; /* Set the desired height */
+        object-fit: cover; /* Maintain aspect ratio and fill container */
+        align-self: center;    
+    }
+  
+
+  .groundt-item h2 {
     align-self: center
   }
   /* .results{
@@ -182,4 +212,29 @@ body {
   
   td:last-child {
     color: white;
+  }
+
+  footer {
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .footer-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-content ul li {
+    margin-bottom: 10px;
   }
